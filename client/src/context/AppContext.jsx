@@ -53,6 +53,7 @@ export const AppContextProvider = (props) => {
             }
       } 
 
+      
       useEffect(()=>{
             if(token){
                   getAuthUser();
